@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(185, 253, 255, 0.625);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    text-decoration: underline;
+    background-color: aqua;
+    color: rgb(0, 98, 255);
+}
+h2 {
+    background-color: rgba(119, 3, 3, 0.485);
+    color: rgb(127, 63, 63);
+}
+p{
+    background-color: antiquewhite;
+    color: rgb(0, 139, 58);
+}

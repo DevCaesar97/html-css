@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu
+        navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="img-flexivel-g">
+    </picture>
+    <h1>Adicionando audios no HTML5</h1>
+    <p>Vamos aprender a reproduzir audios no HTML5.</p>
+    <ul>
+        <li>Essa é a primeira forma de adicionar audio no HTML5</li>
+    </ul>
+    <audio src="midia/By Myself - The Grey Room _ Clark Sims.mp3" preload="metadata" controls loop></audio>
+    <audio src="midia/Intergalactic - Alex Jones _ Xander Jones.mp3" preload="metadata" controls loop></audio>
+    <ul>
+        <li>Essa é a segunda maneira de adicionar audios no HTML5</li>
+    </ul>
+    <audio preload="metadata" controls>
+        <source src="midia/Vintage Culture, Magi, Doral, Blotz - My Summer.MP3" type="audio/mpeg">
+    </audio>
+    <audio preload="metadata" controls>
+        <source src="midia/Vintage Culture, NoMBe - Pleasure Chasers (Joris Voorn Remix).MP3" type="audio/mpeg">
+    </audio>
+    <p>Caso você não consiga reproduzir nenhum desses arquivos de audio, você pode baixar algum deles <a
+            href="midia/Vintage Culture, Magi, Doral, Blotz - My Summer.MP3" target="_blank">clicando aqui</a></p>
+</body>
+
+</html>

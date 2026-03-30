@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #7fe1a9;
+}
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf), format('opentype');
+    font-weight: normal;
+}
+header{
+    background-color: #46b476;
+    min-width: 300px;
+    min-height: 150px;
+    padding: 10px
+}
+header > h1{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+}
+header > p {
+    color: white;
+    margin: auto;
+    max-width: 300px;
+}
+nav{
+    box-shadow: 0px -20px 20px 20px rgba(32, 56, 49, 0.534);
+    padding: 10px;
+    background-color: #0f4527;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+a:hover{
+    box-sizing: 50px;
+    text-decoration: underline;
+    background-color: #296446;
+}
+main{
+    box-shadow: 0 5px 7px 5px rgba(88, 87, 87, 0.422);
+    background-color: white;
+    text-align: justify;
+    max-width: 900px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main > p{
+    text-indent: 20px;
+    padding: 10px;
+}
+.historia > h1{
+    font-family: 'idroid';
+    color: #0f4527;
+    margin: 10px;
+}
+.historia > h2{
+    font-family: 'idroid';
+    padding: 10px;
+    color: #416b53;
+    text-indent: 10px;
+}
+.historia > p{
+    text-indent: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.curiosidades{
+    margin-bottom: 10px;
+    text-align: justify;
+    background-color: #baf5d3;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(132, 130, 130, 0.422);
+}
+.curiosidades > aside > p{
+    text-indent: 10px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.curiosidades ul > li{
+    list-style: inside;
+}
+img{
+    width: 100%;
+    display: block;
+    padding: 15px 0;
+}
+.bugdroid{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+div > p{
+    color: white;
+    font-weight: bolder;
+    background-color: #416b53;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+footer {
+    padding: 5px;
+    background-color: #0f4527;
+}
+footer > p{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}

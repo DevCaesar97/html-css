@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkcyan;
+        }
+
+        li {
+            padding: 5px;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(24, 136, 24);
+        }
+        a:visited{
+            color: purple;
+        }
+        a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        .facebook{
+            background-color: aqua;
+            width: 200px;
+        }
+        .twitter{
+            background-color: rgb(129, 39, 39);
+            width: 200px;
+        }
+        .linkedin{
+            background-color: rgb(176, 176, 237);
+            width: 200px;
+        }
+        a::before{
+            content: '< ';
+        }
+        a::after{
+            content: ' >';
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Testando Links com Seletores-CSS</h1>
+    <ul>
+        <li class="facebook"><a href="https://www.facebook.com/ceesinhamed97/" target="_blank">Meu Perfil do Facebook</a></li>
+        <li class="twitter"><a href="https://x.com/cesinhamed97" target="_blank">Meu Perfil no X-Twitter</a></li>
+        <li class="linkedin"><a href="https://www.linkedin.com/in/romulo-cesar-devcesar/" target="_blank">Meu perfil no LinkedIn</a></li>
+    </ul>
+</body>
+
+</html>
