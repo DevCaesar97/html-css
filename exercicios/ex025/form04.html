@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 04</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset style= "border: 2px solid black; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <legend>Meus Dados</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" autocomplete="on" placeholder="Nome e Sobrenome" minlength="5" maxlength="15" required>
+            </p>
+            <p>
+                <label for="imail">Email:</label>
+                <input type="email" name="email" id="imail" autocomplete="on"
+                placeholder="exemplo@gmail.com" required>
+            </p>
+            <p>
+                <label for="itelefone">Phone:</label>
+                <input type="tel" name="telefone" id="itelefone" autocomplete="on" placeholder="(xx) xxxxx-xxxx" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required>
+            </p>
+            <p>
+                <label for="isenha">Senha:</label>
+                <input type="password" name="senha" id="isenha" placeholder="***********" minlength="6" required>
+            </p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+                </form>
+        </fieldset>
+</body>
+</html>
